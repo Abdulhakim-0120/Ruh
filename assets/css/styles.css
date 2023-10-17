@@ -241,14 +241,16 @@ img {
 
 /* For medium devices */
 @media screen and (min-width: 767px) {
-  .nav{
+  .nav {
     height: calc(var(--header-height) + 1.5rem);
   }
+
   .nav__toggle,
-  .nav__close{
+  .nav__close {
     display: none;
   }
-  .nav__list{
+
+  .nav__list {
     flex-direction: row;
     column-gap: 3.5rem;
   }
@@ -257,25 +259,28 @@ img {
 
 /* For large devices */
 @media screen and (min-width: 1024px) {
-  .home__container{
+  .home__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     column-gap: 2rem;
   }
-  .home__data{
+
+  .home__data {
     text-align: initial;
   }
-  .home__img img{
+
+  .home__img img {
     width: 400px;
   }
-  .home__shadow{
+
+  .home__shadow {
     width: 250px;
     height: 40px;
   }
 }
 
 @media screen and (min-width: 1048px) {
-  .container{
+  .container {
     margin-left: auto;
     margin-right: auto;
   }
@@ -283,11 +288,11 @@ img {
 
 /* For 2K resolutions (2048 x 1152, 2048 x 1536) */
 @media screen and (min-width: 2048px) {
-  body{
+  body {
     zoom: 1.7;
   }
-  
-  .home{
+
+  .home {
     height: initial;
     row-gap: 4rem;
   }
@@ -295,10 +300,11 @@ img {
 
 /* For 4K resolutions (3840 x 2160, 4096 x 2160) */
 @media screen and (min-width: 3840px) {
-  body{
+  body {
     zoom: 4.2;
   }
-  .container{
+
+  .container {
     margin-right: 50px;
     margin-left: 50px;
   }
